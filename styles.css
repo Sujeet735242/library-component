@@ -6,6 +6,15 @@ body
     font-family: 'Montserrat', sans-serif;
 }
 
+hr{
+    margin:2rem 0rem;
+}
+
+/* CSS Variable */
+:root{
+    --primary-color:#7C3AED;
+}
+
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -19,3 +28,24 @@ body
 .container-fluid{
     color: red;
 }
+
+/* Links */
+.link{
+    text-decoration: none;
+    /* padding:top, right, botom, left */
+    padding: 0.5rem 1rem;
+    
+}
+
+.link-primary{
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color:var(--primary-color);
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color)
+}
+
