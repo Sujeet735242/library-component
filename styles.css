@@ -146,3 +146,8 @@ hr {
     /* This is because browser has default padding for every element which is in user agent or user stylesheet */
     padding-inline-start: 0px;
 }
+
+.social-icon{
+    max-width: 50px;
+    max-height: 50px;
+}
